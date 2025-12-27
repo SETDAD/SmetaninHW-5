@@ -21,9 +21,7 @@ public class PracticeFormTests extends TestBase {
                 .setEmail(data.email)
                 .setUserGender(data.gender)
                 .setPhoneNumber(data.phoneNumber)
-                .setDateOfBirth(data.dateOfBirth[0],
-                        data.dateOfBirth[1],
-                        data.dateOfBirth[2])
+                .setDateOfBirth(data.day, data.month, data.year)
                 .setSubject(data.subject)
                 .setSubjectOption0()
                 .setHobbyOption(data.hobby)

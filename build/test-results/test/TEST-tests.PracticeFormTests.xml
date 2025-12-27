@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.PracticeFormTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-21T10:01:50.856Z" hostname="DESKTOP-7OCRRP7" time="8.998">
+<testsuite name="tests.PracticeFormTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-27T10:24:49.857Z" hostname="DESKTOP-7OCRRP7" time="13.88">
   <properties/>
-  <testcase name="successfulFillFormTest()" classname="tests.PracticeFormTests" time="8.998"/>
+  <testcase name="successfulFillFormTest()" classname="tests.PracticeFormTests" time="13.88"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-дек. 21, 2025 5:01:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+дек. 27, 2025 5:24:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
 ]]></system-err>
 </testsuite>

@@ -10,7 +10,7 @@ public class TestData {
     }
     public String email;
     public String phoneNumber;
-    public String[] dateOfBirth;
+//    public String[] dateOfBirth;
     public String subject;
     public String pictureFileName;
     public String address;
@@ -19,5 +19,8 @@ public class TestData {
     public String hobby;
     public String state;
     public String city;
+    public String month;
+    public String day;
+    public String year;
 
 }
