@@ -8,7 +8,7 @@ import testdata.TestDataFaker;
 public class PracticeFormTests extends TestBase {
 
     PracticeFormPage practiceFormPage = new PracticeFormPage();
-    TestData data = TestDataFaker.generate();
+    TestData data = new TestDataFaker().generate();
 
 
 

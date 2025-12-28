@@ -4,9 +4,9 @@ import com.github.javafaker.Faker;
 
 public class TestDataFaker {
 
-    private static final Faker faker = new Faker();
+    private final Faker faker = new Faker();
 
-    public static TestData generate() {
+    public TestData generate() {
 
         TestData data = new TestData();
         RandomUtils randomUtils = new RandomUtils();
@@ -56,9 +56,9 @@ public class TestDataFaker {
         //city
         data.city = switch (data.state) {
             case "NCR" -> faker.options().option("Delhi", "Gurgaon", "Noida");
-            case "Uttar Pradesh" -> faker.options().option("Agra", "Lucknow", "Meerut");
+            case "Uttar Pradesh" -> faker.options().option("Agra", "Lucknow", "Merrut");
             case "Haryana" -> faker.options().option("Karnal", "Panipat");
-            case "Rajasthan" -> faker.options().option("Jaipur", "Jaisalmer");
+            case "Rajasthan" -> faker.options().option("Jaipur", "Jaiselmer");
             default -> null;
         };
 
